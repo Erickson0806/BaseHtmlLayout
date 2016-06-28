@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font: 12px italic;
+    text-align: center;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    /*background: green;*//*temp*/
+    text-align: left;
+
+}
+
+#header {
+    float: left;
+    width: 100%;
+}
+
+#header #logo{
+    float: left;
+    width: 200px;
+    height: 80px;
+    background: pink;
+    margin-right: 10px;
+
+}
+#header #banner{
+    float: left;
+    width: 600px;
+    height: 80px;
+    background: blueviolet;
+}
+#header #tool{
+    float: right;
+    width: 140px;
+    height: 80px;
+    background: gray;
+}
+
+#header #menu{
+    float: left;
+    width: 100%;
+    background: red;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style:none;
+}
+li {
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+
+    text-align: center;
+
+}
+#main {
+    float: left;
+
+    width: 100%;
+}
+#main .leftbox {
+    float: left;
+    width: 750px;
+
+}
+.leftbox .left {
+    float: left;
+    width: 300px;
+    height: 200px;
+    background: purple;
+}
+.leftbox .right {
+    float: right;
+    width: 440px;
+    height: 200px;
+    background: purple;
+}
+#main .rightbox {
+    float: right;
+    width: 200px;
+    height: 400px;
+    background: red;
+}
+#main .ad {
+    float: left;
+    width: 100%;
+    height: 80px;
+    background:magenta;
+}
+#header #menu .bar {
+    width: 1px;
+    height: 12px;
+    margin-top: 8px;
+    background: #000;
+    overflow: hidden;
+
+
+}
+#footer {
+    float: left;
+    width: 100%;/*temp*/
+    height: 80px;/*temp*/
+    background: cadetblue;
+    /*clear: both;*/
+}
+.nav {
+    float: left;
+    width: 100%;
+    height: 10px;
+    clear: both;
+    overflow: hidden;
+}
